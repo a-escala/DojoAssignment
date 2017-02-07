@@ -1,0 +1,100 @@
+#wrapper, header, body, *{
+  margin: 0px auto;
+  padding: 0;
+}
+#wrapper{
+  background: black;
+  display: inline-block;
+  height: 900px;
+}
+html{
+  width: 1022px;
+  height: 900px;
+}
+.banner, .banner img, .banner h1{
+  display: inline-block;
+}
+.banner{
+  background: lightgrey;
+  width: 1022px;
+}
+.banner h1{
+  margin: 30px 0 0px 200px;
+  display: inline-block;
+  font-size: 20pt;
+  vertical-align: top;
+}
+header ul a{
+  text-decoration: none;
+}
+header ul{
+  border-top: 1px solid silver;
+  background: silver;
+}
+header ul li{
+  display: inline-block;
+  padding: 10px;
+  color: black;
+  border-right: 1px solid darkgrey;
+}/*end of header*/
+h2{
+  background: yellow;
+  display: block;
+  vertical-align: top;
+}
+main img{
+  display: inline-block;
+  vertical-align: top;
+}
+main{
+  display: inline-block;
+  position: relative;
+  width: 1020px;
+}
+#rmain{
+  display: inline-block;
+  vertical-align: top;
+  width: 550px;
+  margin-top: 23px;
+}
+h4{
+  display: inline-block;
+  color: yellow;
+  margin: 0 0 10px 10px;
+}
+main h3, main p{
+  background: darkgrey;
+}
+main img{
+  margin: 25px;
+  position: relative;
+  display: inline;
+  vertical-align: top;
+}/*end of main*/
+footer{
+  display: inline-block;
+}
+#auto, #com, #ind, #fluid{
+  background: white;
+  display: inline-block;
+  width: 235px;
+  height: 319px;
+  vertical-align: top;
+  margin-right: 10px;
+}
+#auto{
+  margin-left: 20px;
+}
+input{
+  margin: 10px 0px 10px 100px;
+  background: yellow;
+  padding: 7px;
+  border-top-right-radius: 185%;
+  border-bottom-right-radius: 185%;
+  border-bottom-left-radius: 20px;
+  border-top-left-radius: 20px
+}
+footer h2{
+  font-size: 12pt;
+  padding: 5px;
+}

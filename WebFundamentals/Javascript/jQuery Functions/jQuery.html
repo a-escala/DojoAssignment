@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>jQuery Functions</title>
+    <style media="screen">
+      div{
+        display: block;
+        border-bottom: 3px solid black;
+        padding: 5px;
+      }
+      p{
+        background: gold;
+      }
+      .newcolor{
+        background: blue;
+      }
+    </style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script>
+      $(document).ready(function() {
+        $('.hide button').click(function() {
+          $('.hide p').hide('slow');
+        })
+        $('.show p').hide();
+        $('.show button').click(function() {
+          $('.show p').show();
+        })
+        $('.toggle button').click(function() {
+          $('.toggle p').toggle();
+        })
+        $('.slidedown p').hide();
+        $('.slidedown button').click(function() {
+          $('.slidedown p').slideDown('slow');
+        })
+        $('.slideup button').click(function() {
+          $('.slideup p').slideUp();
+        })
+        $('.slidetoggle button').click(function() {
+          $('.slidetoggle p').slideToggle('slow');
+        })
+        $('.fadein p').hide();
+        $('.fadein button').click(function() {
+          $('.fadein p').fadeIn('slow');
+        })
+        $('.fadeout p').hover(function() {
+          $('.fadeout p').fadeOut(2000);
+        })
+        $('.addclass button').click(function() {
+          $('.addclass p').addClass('newcolor');
+        })
+        $('.before p').hover(function() {
+          $('.before p').before('hover over the text to');
+        })
+        $('.after p').click(function() {
+          $('.after p').after('<em>are you comfortable with jQuery yet?</em>');
+        })
+        $('.append button').click(function() {
+          $('.append p').append(' <br><strong>This is getting easier, right?</strong></br>');
+        })
+        $('.html p').click(function() {
+          $('.html p').html('This is pretty fun!');
+        })
+        var important = $('span').attr('title');
+        $('.attr div').text(important);
+      })
+      $('.val input')
+      .keyup(function() {
+        var value = $(this).val();
+        $('.val p').text(value);
+      }).keyup();
+    </script>
+  </head>
+  <body>
+    <div class="hide">
+      <button type="button" name="button">click me</button>
+      <p>watch me</p>
+    </div>
+    <div class="show">
+      <button type="button" name="button">click for text</button>
+      <p>here is something new</p>
+    </div>
+    <div class="toggle">
+      <button type="button" name="button">juggling</button>
+      <p>watch me change</p>
+    </div>
+    <div class="slidedown">
+    <button type="button" name="button">new stuff</button>
+      <p>cool effects</p>
+      </div>
+    <div class="slideup">
+      <button type="button" name="button">in reverse</button>
+      <p>still cool</p>
+    </div>
+    <div class="slidetoggle">
+      <button type="button" name="button">easy way</button>
+      <p>isn't this method faster?</p>
+    </div>
+    <div class="fadein">
+      <button type="button" name="button">click me to see something cool</button>
+      <p>other useful methods</p>
+    </div>
+    <div class="fadeout">
+      <p>kind of the same, but hover over me</p>
+    </div>
+    <div class="addclass">
+      <button type="button" name="button">click to change color</button>
+      <p>add some more classes to the html</p>
+    </div>
+    <div class="before">
+      <p>see the secret!</p>
+    </div>
+    <div class="after">
+      <p>click me to find out more</p>
+    </div>
+    <div class="append">
+      <button type="button" name="button">more text</button>
+      <p>let's add some text to this. Click the button</p>
+    </div>
+    <div class="html">
+      <p>overwrite this message when you click me.</p>
+    </div>
+    <div class="attr">
+      <p>move the <span title="move">mouse</span> over me</p>
+      <p>the key word is:<div></div></p>
+    </div>
+    <div class="val">
+      <input type="text" name="textbox" value="write something here">
+      <p></p>
+    </div>
+    <div class="text">
+      <p>do you want to know the rest of this message? click it then.</p>
+    </div>
+    <div class="data">
+
+    </div>
+  </body>
+</html>

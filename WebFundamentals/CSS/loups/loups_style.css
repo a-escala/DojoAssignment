@@ -1,0 +1,50 @@
+{
+  margin: 0;
+  padding: 0;
+}
+#wrapper{
+width: 970px;
+background-color: beige;
+position: absolute;
+}
+#h1{
+  background-color: silver;
+  padding: 10px;
+  border-radius: 30px;
+  margin: 10px 30px 15px 10px;
+}
+#navigation{
+  background-color: silver;
+  display: inline-block;
+  border-radius: 30px;
+  width: 200px;
+  margin: 10px;
+}
+#main{
+  display: inline-block;
+  vertical-align: top;
+  margin: 20px;
+  background-color: gray;
+  border-radius: 30px;
+  width: 650px;
+  padding: 10px;
+}
+.essays{
+  position: relative;
+  top: 10px;
+}
+.essays li{
+  margin-bottom: 20px;
+}
+span {
+     cursor:pointer;
+     color:blue;
+     text-decoration:underline;
+}
+#contact{
+  background-color: silver;
+  border-radius: 30px;
+  margin: 20px;
+  padding: 10px;
+  text-align: left;
+}

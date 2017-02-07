@@ -1,0 +1,16 @@
+$ cd desktop
+$ mkdir test
+$ touch index.html
+$ touch styles.css
+$ touch aboutMe.txt
+$ git init
+$ git commit -m "my second commit today"
+$ vi aboutMe.txt
+$ git commit -m "updated aboutMe.txt"
+$ git commit -m "added favorite movie to aboutMe.txt"
+$ git log
+$ git revert -n aac943
+$ git commit -m "revert aac943"
+$ vi aboutMe.txt
+$ git add aboutMe.txt
+$ git commit -m "changed favorite movie in aboutMe.txt"

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>disappearing ninja</title>
+    <style media="screen">
+      html{
+        width: 900px;
+        margin: 0 auto;
+      }
+      h1{
+        text-align: left;
+      }
+      img{
+        height: 200px;
+        width: 200px;
+      }
+    </style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function() {
+          $('img').click(function() {
+            $(this).hide('first');
+          })
+        $('button').click(function() {
+          $('img').show();
+        })
+      })
+    </script>
+  </head>
+  <body>
+    <h1>jQuery - assignment 1</h1>
+    <ul>
+    <img src="sunflower.jpg" alt="flowers">
+    <img src="sunflower.jpg" alt="flowers">
+    <img src="sunflower.jpg" alt="flowers">
+    <img src="sunflower.jpg" alt="flowers">
+    <img src="sunflower.jpg" alt="flowers">
+    <img src="sunflower.jpg" alt="flowers">
+    <img src="sunflower.jpg" alt="flowers">
+    <img src="sunflower.jpg" alt="flowers"><br>
+  </ul>
+    <button type="button" name="button">restore</button>
+  </body>
+</html>

@@ -1,0 +1,132 @@
+*{
+  margin: 0 auto;
+  padding: 0 auto;
+}
+  html{
+    width: 970px;
+    background: #005580;
+  }
+#wrapper{
+  display: inline;
+}
+    #header img{
+      display: inline-block;
+      width: 400px;
+    }
+    #textsize{
+      vertical-align: top;
+      margin: 10px 10px 5px 200px;
+      display: inline-block;
+      color: white;
+    }
+      #textsize a{
+        color: gold;
+        text-decoration: none;
+      }
+    #topnav{
+      vertical-align: text-bottom;
+      width: 230px;
+      background: gray;
+      display: inline-block;
+      margin: -100px 10px 40px 565px;
+      padding: 15px 30px;
+      border-radius: 10px;
+      box-shadow: 2px 3px 5px 0 black;
+    }
+      #topnav input{
+        padding: 5px;
+      }
+    #header ul{
+      background: #4080bf;
+      list-style-type: none;
+      display: block;
+      width: 800px;
+      padding: 10px 0;
+      border-radius: 5px;
+    }
+      #header ul li{
+        display: inline;
+        font-size: 16pt;
+        font-weight: bold;
+        padding: 0px 20px;
+        color: white;
+      }
+      /*end of header*/
+    #sidenav{
+      display: inline-block;
+      vertical-align: top;
+      margin-top: 40px;
+    }
+      #sidenav ul{
+        margin-left: 70px;
+      }
+        #sidenav ul li{
+        color: yellow;
+        padding: 5px;
+      }
+          #sidenav ul li a{
+        display: inline-block;
+        color: white;
+        text-decoration: none;
+      }
+      /*end of sidenav*/
+      #main {
+        display: inline-block;
+        text-align: center;
+        margin-bottom: 40px;
+      }
+        #main p{
+          width: 680px;
+          text-align: center;
+          margin-top: 15px;
+          color: white;
+        }
+        #main ul{
+          list-style-type: none;
+        }
+        #main li{
+          color: gold;
+          font-size: 16pt;
+          font-style: italic;
+          padding: 10px;
+        }
+/*end of main*/
+      #submain{
+        background: white;
+        display: block;
+      }
+        .subs{
+          display: inline-block;
+          width: 400px;
+          vertical-align: top;
+          border-top: 5px solid #4080bf;
+          text-align: center;
+          padding: 10px;
+          margin: 10px 10px 10px 40px;
+        }
+        .subs a{
+          text-decoration: none;
+          color: #b3cce6;
+        }
+        /*end of submain*/
+      #foot{
+        display: block;
+        background: #4080bf;
+        padding-top: 30px;
+        text-align: center;
+      }
+        #foot ul{
+          display: inline-block;
+          list-style-type: square;
+          vertical-align: bottom;
+        }
+        #foot ul li{
+          display: inline-block;
+          font-size: 14pt;
+          padding: 0 20px;
+        }
+        #foot a, footer{
+          text-decoration: none;
+          color: #b3cce6;
+          margin-top: 10px;
+        }

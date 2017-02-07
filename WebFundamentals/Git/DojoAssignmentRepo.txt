@@ -1,0 +1,13 @@
+$ cd DojoAssignments
+$ git init
+$ git add .
+$ git commit -m "Coding Dojo Assignements"
+$ git remote add origin https://github.com/a-escala/DojoAssignment.git
+$ git push -u origin master
+$ touch readme.md
+$ vi readme.md
+$ git diff readme.md
+$ git add readme.md
+$ git commit -m "Created a readme.md file explaining folder contents"
+
+
