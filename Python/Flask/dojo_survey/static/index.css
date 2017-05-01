@@ -1,0 +1,21 @@
+*{
+  margin: 0, auto;
+}
+
+html{
+  margin: 0;
+  background: white;
+}
+
+input{
+  display: inline;
+}
+
+textarea{
+  display: block;
+  margin: 10px;
+}
+
+p{
+  display: inline;
+}

@@ -1,0 +1,15 @@
+pip install Django
+- This command searches for and installs the Django files.
+pip list
+- List command will list everything in the pip directory.
+pip install Django
+pip freeze
+- I noticed this command will list only install package excluding ones related to pip.
+pip freeze > requirements.txt
+- this generates installed packages in text format
+pip show Django
+- shows info on the installed Django package.
+pip uninstall Django
+- uninstalls the Django package
+pip search Flask
+- searches for all packages containing the word Flask

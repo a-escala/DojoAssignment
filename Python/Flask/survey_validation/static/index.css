@@ -1,0 +1,28 @@
+*{
+  margin: 0, auto;
+}
+  html{
+    width: 970px;
+    margin: auto;
+    background: lightblue;
+  }
+
+    }
+    form{
+      display: block;
+    }
+
+      label{
+        display: inline-block;
+        text-align: left;
+        margin: 10px;
+      }
+      input, select{
+        display: inline-block;
+        margin-right: 680px;
+      }
+
+      #button{
+        display: block;
+        margin-left: auto;
+      }

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Survey With Validation</title>
+    <link rel="stylesheet" type='text/css' href="{{ url_for('static', filename='index.css') }}">
+  </head>
+  <body>
+    <h1>
+      {% with messages = get_flashed_messages() %}
+        {% if messages %}
+          {% for message in messages %}
+            <p>{{message}}</p>
+          {% endfor %}
+        {% endif %}
+      {% endwith %}
+    </h1>
+    <form class="" action="/results" method="post">
+      <label for="name">Your Name</label>
+      <input type="text" name="name" value="">
+      <label for="location">Dojo Location</label>
+      <select class="" name="location">
+        <option value="San Jose">San Jose</option>
+        <option value="San Francisco">San Francisco</option>
+        <option value="Seattle">Seattle</option>
+      </select>
+      <label for="language">Favorite Language</label>
+      <select class="" name="language">
+        <option value="Python">Python</option>
+        <option value="Javascript">Javascript</option>
+        <option value="Ruby">Ruby</option>
+      </select>
+      <label for="comment">Comment</label>
+      <textarea name="comment" maxlength="125"></textarea>
+      <input type="submit" id="button" value="Submit">
+  </form>
+  </body>
+</html>
